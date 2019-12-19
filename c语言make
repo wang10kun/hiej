@@ -1,0 +1,1 @@
+make -j $(grep -w processor /proc/cpuinfo|wc -l)
